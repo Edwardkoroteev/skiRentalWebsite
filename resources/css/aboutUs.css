@@ -1,0 +1,90 @@
+/*=====================================================
+	Ski/Snowboarding Shop
+	Name: Edward Koroteev
+	Date:12/6/2016
+	Filename: About Us_style.css
+	Purpose: Cascade Style Sheet for the About Us.html
+=======================================================*/
+body{
+	font-family:Impact, Charcoal, sans-serif;
+	background-image: url("../Images/background.jpg");
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div{
+	width:1100px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:100px;
+}
+
+section:last-of-type{
+	background-color: rgba(80,164,191,.8);
+	border: 2px solid black;
+}
+
+nav ul{
+	list-style-type:none;
+}
+
+nav a{
+	color: rgba(255,255,255,1);
+	font-size:30px;
+	display:block;
+	padding: 20px 60px;
+	text-decoration:none;
+	background-color: rgba(0,0,0,1);
+	margin-left:-6px;
+}
+
+nav li{
+	float:left;
+}
+
+nav a:hover{
+	color:rgba(0,0,0,1);
+	background-color:rgba(255,255,255,1);
+}
+
+header{
+	text-align:center;
+	font-size:80px;
+}
+
+h1{
+	text-align:center;
+	font-size:50px;
+	padding-bottom:100px;
+	margin-bottom:-50px;
+}
+
+#snowboard{
+	width:200px;
+	height:125px;
+	position:absolute;
+	margin-top:-125px;
+}
+
+h2 {
+	font-size: 40px;
+	margin: 0;
+	padding: 20px 0px 0px 30px;
+}
+
+p{
+	padding: 30px;
+	font-family:"Courier New", Courier, monospace;
+	margin:0;
+	font-size:25px;
+}
+
+a{
+	color: rgba(0,0,0,1);
+}
+
+iframe{
+	margin-left: 250px;
+	padding-bottom: 50px;
+}

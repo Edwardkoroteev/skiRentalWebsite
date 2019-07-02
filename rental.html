@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!--
+		Author: Edward Koroteev
+		Date: 10/25/2016
+		Purpose: Create the rental page for the 
+		ski/snowboarding shop page.
+	-->
+	<meta charset="UTF-8" />
+	<title>Snow Gear Rental</title>
+	<script src="modernizr-1.5.js"></script>
+	<link href="resources/css/rental.css" rel="stylesheet" />
+	</head>
+	
+	<body>
+		<div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="rental.html">Rental</a></li>
+					<li><a href="repairs.html">Repairs</a></li>
+					<li><a href="aboutUs.html">About Us</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			
+			<header>Mt. Hood Ski/Snowboarding Shop</header>
+			
+			<section>
+				<h1>Rental</h1>
+					<img src="resources/images/snowboarding.png" alt="Snowboarding Logo" id="snowboard">  
+			</section>
+			<section id="midsection">
+				<p>
+					Glad you're thinking of renting from us! We are more than happy to provide you the
+					best ski/snowboarding rental services at an affordable price! We will provide excellent
+					quality gear that is widely used all over the world!
+				</P>
+				
+				<h2>Snowboarding Options</h2>
+				<p>
+					All of our snowboarding high performance snowboarding gear comes with Adidas, Nike, or 
+					Thirty-Two boots. Along with Union force bindings.
+				</P>
+				
+				<h2>Ski Options</h2>
+				<p>
+					All of our ski packages come with Salomon, Armada, or Rossignol skis. We have a large
+					variety of boots and bindings that can be picked out during the renting session!
+				</p>
+			</section>
+			
+			<section id="rentals">
+				<table id="prices">
+					<caption>Rental Prices</caption>
+					<colgroup>
+						<col span="9"/>
+						<col span="12"/>
+					</colgroup>
+					<thead>
+						<tr>
+							<th>Package</th>
+							<th>1 Day</th>
+							<th>2 Days</th>
+							<th>3 Days</th>
+							<th>1 Week</th>
+							<th>4 Weeks</th>
+							<th>5 Weeks</th>
+							<th>6 Weeks</th>
+							<th>Season</th>
+						</tr>
+						<tbody>
+							<tr>
+								<th>Adult Snowboard (18+)</th>
+								<td><h3>$30</h3></td>
+								<td><h3>$50</h3></td>
+								<td><h3>$55</h3></td>
+								<td><h3>$75</h3></td>
+								<td><h3>$130</h3></td>
+								<td><h3>$150</h3></td>
+								<td><h3>$180</h3></td>
+								<td><h3>$250</h3></td>
+							</tr>
+							<tr>
+								<th>Jr. Snowboard (12-17)</th>
+								<td><h3>$20</h3></td>
+								<td><h3>$30</h3></td>
+								<td><h3>$38</h3></td>
+								<td><h3>$50</h3></td>
+								<td><h3>$100</h3></td>
+								<td><h3>$130</h3></td>
+								<td><h3>$150</h3></td>
+								<td><h3>$225</h3></td>
+							</tr>
+							<tr>
+								<th>Kids Snowboard (2-11)</th>
+								<td><h3>$15</h3></td>
+								<td><h3>$25</h3></td>
+								<td><h3>$30</h3></td>
+								<td><h3>$40</h3></td>
+								<td><h3>$75</h3></td>
+								<td><h3>$100</h3></td>
+								<td><h3>$120</h3></td>
+								<td><h3>$200</h3></td>
+							</tr>
+							<tr>
+								<th>Adult Ski (18+)</th>
+								<td><h3>$30</h3></td>
+								<td><h3>$50</h3></td>
+								<td><h3>$60</h3></td>
+								<td><h3>$75</h3></td>
+								<td><h3>$150</h3></td>
+								<td><h3>$180</h3></td>
+								<td><h3>$200</h3></td>
+								<td><h3>$300</h3></td>
+							</tr>
+							<tr>
+								<th>Jr. Ski (12-17)</th>
+								<td><h3>$20</h3></td>
+								<td><h3>$30</h3></td>
+								<td><h3>$38</h3></td>
+								<td><h3>$50</h3></td>
+								<td><h3>$120</h3></td>
+								<td><h3>$135</h3></td>
+								<td><h3>$175</h3></td>
+								<td><h3>$275</h3></td>
+							</tr>
+							<tr>
+								<th>Kids Ski (2-11)</th>
+								<td><h3>$15</h3></td>
+								<td><h3>$25</h3></td>
+								<td><h3>$30</h3></td>
+								<td><h3>$40</h3></td>
+								<td><h3>$100</h3></td>
+								<td><h3>$120</h3></td>
+								<td><h3>$150</h3></td>
+								<td><h3>$250</h3></td>
+							</tr>
+							<tr>
+								<th>Adult X-Country (18+)</th>
+								<td><h3>$20</h3></td>
+								<td><h3>$25</h3></td>
+								<td><h3>$30</h3></td>
+								<td><h3>$40</h3></td>
+								<td><h3>$80</h3></td>
+								<td id="empty"><h3>N/A</h3></td>
+								<td id="empty"><h3>N/A</h3></td>
+								<td id="empty"><h3>N/A</h3></td>
+							</tr>
+							<tr>
+								<th>Jr X-Country(12-17)</th>
+								<td><h3>$12</h3></td>
+								<td><h3>$18</h3></td>
+								<td><h3>$25</h3></td>
+								<td><h3>$35</h3></td>
+								<td><h3>$70</h3></td>
+								<td id="empty"><h3>N/A</h3></td>
+								<td id="empty"><h3>N/A</h3></td>
+								<td id="empty"><h3>N/A</h3></td>
+							</tr>
+							<tr>
+								<th>Kids X-Country (2-11)</th>
+								<td><h3>$7</h3></td>
+								<td><h3>$15</h3></td>
+								<td><h3>$20</h3></td>
+								<td><h3>$30</h3></td>
+								<td><h3>$65</h3></td>
+								<td id="empty"><h3>N/A</h3></td>
+								<td id="empty"><h3>N/A</h3></td>
+								<td id="empty"><h3 >N/A</h3></td>
+							</tr>
+							<tr>
+								<th>Snowshoes</th>
+								<td><h3>$25</h3></td>
+								<td><h3>$32</h3></td>
+								<td><h3>$38</h3></td>
+								<td><h3>$45</h3></td>
+								<td id="empty"><h3>N/A</h3></td>
+								<td id="empty"><h3>N/A</h3></td>
+								<td id="empty"><h3>N/A</h3></td>
+								<td id="empty"><h3>N/A</h3></td>
+							</tr>
+							<tr>
+								<th>Helmet</th>
+								<td><h3>$10</h3></td>
+								<td><h3>$15</h3></td>
+								<td><h3>$20</h3></td>
+								<td><h3>$30</h3></td>
+								<td id="empty"><h3>N/A</h3></td>
+								<td id="empty"><h3>N/A</h3></td>
+								<td id="empty"><h3>N/A</h3></td>
+								<td id="empty"><h3>N/A</h3></td>
+							</tr>
+						</tbody>
+					</thead>
+				</table>
+			</section>
+		</div>
+	</body>
+</html>

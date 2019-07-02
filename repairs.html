@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!--
+		Author: Edward Koroteev
+		Date: 10/25/2016
+		Purpose: Create the repairs page for the 
+		ski/snowboarding shop page.
+	-->
+	<meta charset="UTF-8" />
+	<title>Snow Gear Rental</title>
+	<script src="modernizr-1.5.js"></script>
+	<link href="resources/css/repairs.css" rel="stylesheet" />
+	</head>
+		
+	<body>
+		<div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="rental.html">Rental</a></li>
+					<li><a href="repairs.html">Repairs</a></li>
+					<li><a href="aboutUs.html">About Us</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			
+			<header>
+				Mt. Hood Ski/Snowboarding Shop
+			</header>
+			
+			<section>
+				<h1>Repairs</h1>
+				<img src="resources/images/snowboarding.png" alt="Snowboarding Logo" id="snowboard"> 
+			</section>
+			<section id="midsection">
+				<h2>Why Do Tune-Ups?</h2>
+				<p>
+					I'm sure you've heard people say "It's all about the rider not his gear."
+					Well they're wrong! A good tune up will not only keep your gear in
+					good condition, but will also enhance your riding ability! Whether your gear
+					is cheap or expensive, you will always need to do constant tune-ups in order to
+					keep your gear performing the way it's supposed to. A good tune-up will make sure 
+					your gear is in safe condition for you, wax your board in order to provide a more 
+					slippery bottom surface. This will help you maneuver easier and make sure you won't
+					slow down while riding down. A good tune-up from us will also fix the deep scratches
+					and cracks on the gear you spent so much money on! Overall, after a good tune-up, your
+					gear will feel more alive and the way it's supposed to!
+				</p>
+				
+				<h2>When Should You Do Tune-Ups?</h2>
+				<p>
+					So when should you do a tune-up is a question frequently asked. To determine how often
+					you need a tune-up, you first have to determine what kind of rider you are. Advanced mountain
+					riders such as backcountry cliff jumpers, or park riders, will have to do more frequent tune-ups
+					than your average everyday cruiser. For all riders, a tune-up is mandatory at the beggning of
+					every season. For advanced riders, a tune-up is necessary every 5-7 trips to the mountain. For
+					an everyday cruiser, a tune-up is necessary every 7-10 trips to the slopes. Those are the most
+					accurate recomendations for everyone, but if you feel like you might need a tune-up even earlier,
+					it won't hurt to do one! For great performance, a pocket stone and daily wax are recommended before
+					every trip to the slopes!
+				</p>
+				
+				<h2>What's Included In A Tune-up</h2>
+				<p>
+					Our full tune-ups are exclussive and we will make sure that your gear gets the proper treatment it need!
+					A full tune-up will include the following below.
+				</p>
+				
+				<ul>
+					<li><h3>Complete Hot-Wax</h3></li>
+					<li><h3>Complete Edge Sharpen</h3></li>
+					<li><h3>Binding Adjustment</h3></li>
+				</ul>
+			</section>
+			<section id = "form">
+				<form action="mailto:mthoodshop@snowsupply.com" method="post">
+					<legend>Book Your Service Online!</legend>
+					Name:
+					<input type="text" name="txtName" placeholder = "First Last" id="txtname">
+					<br>
+					E-mail:
+					<input type="email" name="txtEmail" placeholder="example@mail.com" id="txtemail">
+					</br>
+					Phone:
+					<input type="phone" name="txtPhone" placeholder = "(xxx)-xxx-xxxx" id="txtphone">
+					<br>
+					Service Type:
+					<input type="checkbox"  name="tunebox" id="tune">Full Tune-Up
+					<input type="checkbox"  name="waxbox" id="tune">Wax
+					<input type="checkbox"  name="edgebox" id="tune"> Edge Sharpen
+					<input type="checkbox"  name="bindbox" id="tune">Binding Adjustment
+					<input type="checkbox"  name="installbox" id="tune">Binding Installation
+					</br>
+				
+					Schedule (date and time): <input type="datetime-local" name="schedule">
+					<br>
+						<input type="submit" name="btnSubmit" id="btn" value="Send">
+					<input type="reset" name="btnReset" id="btn">
+					</br>
+				</form>
+			</section>
+			<section id = "repairs">
+				<table id = "repairdetails">
+				<caption>Repair Prices</caption>
+				<colgroup>
+					<col span="2"/>
+					<col span="5" />
+				</colgroup>
+				<thead>
+					<tr>
+						<th>Full Tune-Up Ski/Snowboard</th>
+						<td><h3>$60</h3></td>
+					</tr>
+					<tr>
+						<th>Wax Ski/Snowboard</th>
+						<td><h3>$15</h3></td>
+					</tr>
+					<tr>
+						<th>Edge Sharpen Ski/Snowboard</th>
+						<td><h3>$30</h3></td>
+					</tr>
+					<tr>
+						<th>Binding Adjustment Ski/Snowboard</th>
+						<td><h3>$15</h3></td>
+					</tr>
+					<tr>
+						<th>Binding Installation Ski/Snowboard</th>
+						<td><h3>$25</h3></td>
+					</tr>
+				</thead>
+			</section>
+		</div>
+	</body>
+</html>
